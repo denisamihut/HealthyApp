@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MonitorApp</string>
+    <string name="app_logo">[Green leaves logo]</string>
+    <string name="app_name">App Name</string>
+
+
+
+
+
 </resources>

@@ -14,17 +14,13 @@
         android:theme="@style/Theme.MonitorApp"
         tools:targetApi="31">
         <activity
-            android:name=".OnBoarding"
+            android:name=".activity.OnBoarding"
             android:exported="false" />
         <activity
-            android:name=".Splashscreen"
-            android:exported="false" />
-        <activity
-            android:name="com.mihut.monitorapp.activity.MainActivity"
+            android:name=".activity.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
