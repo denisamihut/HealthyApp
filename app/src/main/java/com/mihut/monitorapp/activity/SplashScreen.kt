@@ -11,7 +11,6 @@ private const val DELAY = 3000L
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {
-
     private var handler: Handler? = null
     private var runnable: Runnable? = null
 
@@ -30,6 +29,7 @@ class SplashScreen : AppCompatActivity() {
     }
 
     private fun openNextScreen() {
+        OnBoarding.open(this)
         finish()
     }
 
