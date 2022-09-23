@@ -6,4 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.mihut.monitorapp.activity.SplashScreen">
 
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

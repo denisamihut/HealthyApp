@@ -20,7 +20,7 @@
             android:name=".Splashscreen"
             android:exported="false" />
         <activity
-            android:name="com.mihut.monitorapp.MainActivity"
+            android:name="com.mihut.monitorapp.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

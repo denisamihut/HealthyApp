@@ -1,8 +1,8 @@
-package com.mihut.monitorapp
+package com.mihut.monitorapp.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.monitorapp.R
+import com.mihut.monitorapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
