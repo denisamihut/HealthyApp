@@ -14,6 +14,9 @@
         android:theme="@style/Theme.MonitorApp"
         tools:targetApi="31">
         <activity
+            android:name=".UserData"
+            android:exported="false" />
+        <activity
             android:name=".AllData"
             android:exported="false" />
         <activity
