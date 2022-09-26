@@ -1,14 +1,15 @@
-# Health
+# MonitorApp
 - This is an app that displays BMI info
-# Owner
 
+# Owner
 - Mihut Denisa Georgiana
 - 16.08.2022
+- Lang: EN
 
 # Sources
-- [checkyourhealth.org](http://www.checkyourhealth.org/eat-healthy/cal_calculator.php): Used to calculate calorie deficits in order to gain weight
-- [healthyweight.health.gov.au](http://healthyweight.health.gov.au/wps/portal/Home/get-started/are-you-a-healthy-weight/bmi/): Data stripped into BMIDetailsActivity, equation used in BMIActivity
-- [PhilJay's MPAndroidChart Library](https://github.com/PhilJay/MPAndroidChart): The graphing library used in GraphFragment
+- http://www.checkyourhealth.org/eat-healthy/cal_calculator.php: Used to calculate calorie deficits in order to gain weight
+- http://healthyweight.health.gov.au/wps/portal/Home/get-started/are-you-a-healthy-weight/bmi/: Data stripped into BMIDetailsActivity, equation used in BMIActivity
+- https://github.com/PhilJay/MPAndroidChart: The graphing library used in GraphFragment
 
 # Features
 - MVVM Architecture
@@ -16,16 +17,23 @@
 - Using Fragment and Activity
 - Using Room
 - Retrofit
-- Using API queries to populate local db
-- SearchView for Fragment
-- SearchView for Activity
+- Using API queries to populate local DB
+- SearchView for Fragment & Activity
 - Glide library to display image views
-- Using couroutines
+- Using coroutines
 
 # Finished Tasks
-- N/A
+- Chose architecture + ui mockup
+- Added app color palette
+- Added app logo
+- Created two new activities
 
-# Tasks
+# Current Tasks
+- Make the preferences tab in a fragment
+- Create ui for third activity
+
+# Future Tasks
+- Take a quote from an API and display it on splash screen
 - Save and load weight data in both Metric and Imperial
 - Display this weight in an interactive graph (Thanks to [PhilJay's MPAndroidChart Library](https://github.com/PhilJay/MPAndroidChart))
 - Generates statistics based on Gain/Loss streaks and average weight change over the last week
@@ -33,8 +41,3 @@
 - Unit converter (kg-lbs etc.) Calculates daily calorie allowance to maintain weight based on BMR and activity level
 - Calculates how long until weight goal achieved given calorie deficit
 - All data is shareable across apps
-
-# Current Tasks
-- choose palette color
-- choose architecture + ui mockup
-
