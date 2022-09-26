@@ -29,7 +29,7 @@ class SplashScreen : AppCompatActivity() {
     }
 
     private fun openNextScreen() {
-        OnBoarding.open(this)
+        UserData.open(this)
         finish()
     }
 

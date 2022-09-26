@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MonitorApp"
         tools:targetApi="31">
         <activity
-            android:name="com.mihut.monitor_app.activity.OnBoarding"
+            android:name="com.mihut.monitor_app.activity.UserData"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
