@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green"
-    tools:context="com.mihut.monitorapp.activity.SplashScreen">
+    tools:context="com.mihut.monitor_app.activity.SplashScreen">
 
     <ImageView
         android:id="@+id/ivAppLogo"

@@ -1,10 +1,10 @@
-package com.mihut.monitorapp.activity
+package com.mihut.monitor_app.activity
 
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.mihut.monitorapp.R
+import com.mihut.monitor_app.R
 
 class OnBoarding : AppCompatActivity() {
 

@@ -1,11 +1,11 @@
-package com.mihut.monitorapp.activity
+package com.mihut.monitor_app.activity
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.mihut.monitorapp.R
+import com.mihut.monitor_app.R
 
 private const val DELAY = 3000L
 

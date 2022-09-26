@@ -1,4 +1,4 @@
-package com.mihut.monitorapp
+package com.mihut.monitor_app
 
 import org.junit.Test
 

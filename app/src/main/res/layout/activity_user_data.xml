@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserData" />
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mihut.monitor_app.activity.UserData">
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
