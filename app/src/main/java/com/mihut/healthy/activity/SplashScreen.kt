@@ -29,7 +29,6 @@ class SplashScreen : AppCompatActivity() {
     }
 
     private fun openNextScreen() {
-        UserData.open(this)
         finish()
     }
 
