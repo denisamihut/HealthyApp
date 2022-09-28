@@ -1,4 +1,4 @@
-package com.mihut.monitor_app
+package com.mihut.healthy
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

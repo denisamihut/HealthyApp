@@ -1,4 +1,4 @@
-package com.mihut.monitor_app
+package com.mihut.healthy
 
 import org.junit.Test
 

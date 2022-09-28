@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mihut.monitor_app">
+    package="com.mihut.healthy">
 
     <application
         android:allowBackup="true"
@@ -14,11 +14,15 @@
         android:theme="@style/Theme.MonitorApp"
         tools:targetApi="31">
         <activity
-            android:name="com.mihut.monitor_app.activity.UserData"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:name=".activity.UserData"
+            android:exported="false" />
         <activity
-            android:name="com.mihut.monitor_app.activity.SplashScreen"
+            android:name=".activity.BMI"
+            android:exported="false"
+            android:label="@string/title_activity_bmi"
+            android:theme="@style/Theme.MonitorApp.NoActionBar" />
+        <activity
+            android:name=".activity.SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -28,4 +32,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

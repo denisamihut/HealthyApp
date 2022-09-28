@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green"
-    tools:context="com.mihut.monitor_app.activity.SplashScreen">
+    tools:context="com.mihut.healthy.activity.SplashScreen">
 
     <ImageView
         android:id="@+id/ivAppLogo"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="@string/app_name"
-        android:textColor="@color/blue"
+        android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

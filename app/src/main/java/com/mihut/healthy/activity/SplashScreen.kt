@@ -1,11 +1,11 @@
-package com.mihut.monitor_app.activity
+package com.mihut.healthy.activity
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.mihut.monitor_app.R
+import com.mihut.healthy.R
 
 private const val DELAY = 3000L
 
@@ -29,6 +29,7 @@ class SplashScreen : AppCompatActivity() {
     }
 
     private fun openNextScreen() {
+        UserData.open(this)
         finish()
     }
 
