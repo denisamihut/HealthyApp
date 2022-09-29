@@ -14,15 +14,15 @@
         android:theme="@style/Theme.MonitorApp"
         tools:targetApi="31">
         <activity
-            android:name=".TabbedActivity"
+            android:name=".activity.tab.main.TabbedActivity"
             android:exported="false"
             android:label="@string/title_activity_tabbed"
             android:theme="@style/Theme.MonitorApp.NoActionBar" />
         <activity
-            android:name=".activity.UserData"
+            android:name=".activity.BmiActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.BMI"
+            android:name=".activity.Home"
             android:exported="false"
             android:label="@string/title_activity_bmi"
             android:theme="@style/Theme.MonitorApp.NoActionBar" />
