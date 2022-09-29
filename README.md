@@ -10,6 +10,7 @@
 - http://www.checkyourhealth.org/eat-healthy/cal_calculator.php: Used to calculate calorie deficits in order to gain weight
 - http://healthyweight.health.gov.au/wps/portal/Home/get-started/are-you-a-healthy-weight/bmi/: Data stripped into BMIDetailsActivity, equation used in BMIActivity
 - https://github.com/PhilJay/MPAndroidChart: The graphing library used in GraphFragment
+- https://medium.com/@karthikr1493/building-a-bmi-computing-android-app-using-kotlin-6088858dec17: For calculating BMI data
 
 # Features
 - MVVM Architecture
