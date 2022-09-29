@@ -55,6 +55,7 @@ class PlaceholderFragment : Fragment() {
          * Returns a new instance of this fragment for the given section
          * number.
          */
+//        this is deleted
         @JvmStatic
         fun newInstance(sectionNumber: Int): PlaceholderFragment {
             return PlaceholderFragment().apply {
@@ -63,6 +64,7 @@ class PlaceholderFragment : Fragment() {
                 }
             }
         }
+//        this is deleted
     }
 
     override fun onDestroyView() {

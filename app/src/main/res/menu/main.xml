@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_movies"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_my_movies"
+            android:icon="@drawable/ic_baseline_bar_chart_24"
+            android:title="My Data" />
+        <item
+            android:id="@+id/nav_save_prefs"
+            android:icon="@drawable/ic_baseline_format_list_numbered_24"
+            android:title="My Preferences" />
+    </group>
+</menu>
