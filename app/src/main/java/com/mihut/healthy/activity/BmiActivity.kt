@@ -47,7 +47,6 @@ class BmiActivity : AppCompatActivity() {
         intent.putExtra("BMI_Value", bmiValue)
         startActivity(intent)
     }
-
     companion object {
         fun open(context: Context) {
             context.startActivity(Intent(context, BmiActivity::class.java))

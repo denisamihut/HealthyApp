@@ -22,6 +22,9 @@
             android:name=".activity.BmiActivity"
             android:exported="false" />
         <activity
+            android:name=".activity.BmiStatusActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.Home"
             android:exported="false"
             android:label="@string/title_activity_bmi"
